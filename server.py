@@ -24,18 +24,17 @@ def normalize_transcription(text):
     words = cleaned_text.split()
     
     word_to_digit = {
-        "zero": "0", "one": "1", "two": "2", "three": "3", "four": "4",
-        "five": "5", "six": "6", "seven": "7", "eight": "8", "nine": "9",
-        "oh": "0", "no": "0", "go": "0", "hero": "0",
-        "won": "1", "on": "1", "when": "1", "want": "1",
-        "to": "2", "too": "2", "do": "2", "through": "2",
-        "free": "3", "tree": "3", "the": "3", "key": "3",
-        "for": "4", "fore": "4", "or": "4", "more": "4",
-        "file": "5", "fire": "5", "fine": "5", "find": "5",
-        "sex": "6", "clicks": "6", "fix": "6", "mix": "6",
-        "send": "7", "save": "7", "safe": "7",
-        "ate": "8", "h": "8", "height": "8", "it": "8", "hate": "8",
-        "night": "9", "line": "9", "mind": "9", "nice": "9", "find": "9"
+            "zero": "0", "oh": "0",
+        "one": "1", "won": "1",
+        "two": "2", "to": "2", "too": "2",
+        "three": "3",
+        "four": "4", "for": "4", "fore": "4",
+        "five": "5",
+        "six": "6",
+        "seven": "7",
+        "eight": "8", "ate": "8",
+        "nine": "9",
+        "double-u": "w"
     }
     
     digit_only_result = []
